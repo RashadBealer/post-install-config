@@ -34,7 +34,17 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After successful installation, access the osTicket admin panel by navigating to the admin URL. Log in using the administrator credentials created during installation.Navigate to "Admin Panel" > "Settings" > "General".
+Review and update the general settings such as the site name, default department, and default help topic.Ensure that email settings are correctly configured to enable osTicket to send and receive emails. Navigate to "Admin Panel" > "Settings" > "Email".
+Verify SMTP settings or configure other mail options based on your email server setup.Adjust ticket-related settings under "Admin Panel" > "Settings" > "Tickets". Configure default ticket status, priorities, and other relevant options.
+Tailor ticket forms to gather specific information from users. Navigate to "Admin Panel" > "Manage" > "Forms" to add, edit, or remove custom ticket forms.</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Add support staff members and organize them into teams for efficient ticket assignment. Go to "Admin Panel" > "Staff" to manage staff accounts and team assignments.Adjust department settings under "Admin Panel" > "Manage" > "Departments". Customize department names, email addresses, and permissions.Create and organize articles in the Knowledge Base for users to find solutions independently. Navigate to "Admin Panel" > "Manage" > "Knowledge Base" to add and manage articles.Enhance automation by configuring ticket filters and rules. Go to "Admin Panel" > "Manage" > "Ticket Filters" and "Ticket Rules" to set conditions for automatic actions.Leverage osTicket's reporting capabilities to analyze ticket data. Explore "Admin Panel" > "Reports" to generate reports on ticket activity, response times, and more.
 </p>
 <br />
 
@@ -42,14 +52,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Personalize email communication by customizing templates. Navigate to "Admin Panel" > "Settings" > "Email" > "Templates" to edit email templates.Implement security measures, including regular backups, keeping osTicket and server software updated, and restricting access to sensitive areas.Customize the user portal to reflect your organization's branding. Navigate to "Admin Panel" > "Settings" > "User Interface" to make visual adjustments.Explore available plugins to extend osTicket's functionality. Integrate plugins for additional features, such as authentication options or integration with other systems.Provide training to staff on using osTicket efficiently. Document internal processes and procedures for consistent ticket management.
 </p>
 <br />
