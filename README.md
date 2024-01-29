@@ -19,35 +19,63 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
+- Azure Virtual Machine with osTicket Installed: Ensure you have an Azure VM with osTicket installed following the initial installation tutorial.
+- Remote Desktop Connection: Use Microsoft Remote Desktop to connect to the Azure VM.
+- Internet Information Services (IIS): IIS should be installed on the Azure VM, serving as the web server for osTicket.
+    
 <h2>Configuration Steps</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successful installation, access the osTicket admin panel by navigating to the admin URL. Log in using the administrator credentials created during installation.Navigate to "Admin Panel" > "Settings" > "General".</p>
+  Navigate to Admin Panel:
 
-<p>Review and update the general settings such as the site name, default department, and default help topic.Ensure that email settings are correctly configured to enable osTicket to send and receive emails. Navigate to "Admin Panel" > "Settings" > "Email".</p>
+Open a web browser on the Azure VM or your local machine.
+Navigate to the osTicket admin panel using the URL of your osTicket installation (e.g., http://localhost/osticket/scp).
+</p>
 
-<p>Verify SMTP settings or configure other mail options based on your email server setup.Adjust ticket-related settings under "Admin Panel" > "Settings" > "Tickets". Configure default ticket status, priorities, and other relevant options.
-Tailor ticket forms to gather specific information from users. Navigate to "Admin Panel" > "Manage" > "Forms" to add, edit, or remove custom ticket forms.</p>
+<p>
+  Log In:
+
+Log in with the administrator credentials created during the osTicket installation.
+</p>
+
+<pUpdate General Settings:
+In the osTicket admin panel, go to "Admin Panel" > "Settings" > "General".
+Review and update general settings such as the site name, default department, and default help topic.</p>
+
+<p>
+  Configure Email Settings:
+Navigate to "Admin Panel" > "Settings" > "Email".
+Ensure that email settings are correctly configured for sending and receiving ticket-related emails.</p>
+
+<p>
+  Adjust Ticket Settings:
+Under "Admin Panel" > "Settings" > "Tickets," configure default ticket status, priorities, and other relevant options.</p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Add support staff members and organize them into teams for efficient ticket assignment. Go to "Admin Panel" > "Staff" to manage staff accounts and team assignments.Adjust department settings under "Admin Panel" > "Manage" > "Departments".</p>
+  Customize Ticket Forms:
+Tailor ticket forms to gather specific information from users. Visit "Admin Panel" > "Manage" > "Forms" to add, edit, or remove custom ticket forms.
+</p>
 
-<p>Customize department names, email addresses, and permissions.Create and organize articles in the Knowledge Base for users to find solutions independently. Navigate to "Admin Panel" > "Manage" > "Knowledge Base" to add and manage articles.Enhance automation by configuring ticket filters and rules.</p>
+<p>
+  Add Staff Members and Teams:
+Go to "Admin Panel" > "Staff" to add support staff members and organize them into teams for efficient ticket assignment.
+</p>
 
-<pGo to "Admin Panel" > "Manage" > "Ticket Filters" and "Ticket Rules" to set conditions for automatic actions.Leverage osTicket's reporting capabilities to analyze ticket data. Explore "Admin Panel" > "Reports" to generate reports on ticket activity, response times, and more.
+<p>
+  Adjust Department Settings:
+Under "Admin Panel" > "Manage" > "Departments," customize department names, email addresses, and permissions.
+</p>
+
+<p>
+  Create Knowledge Base Articles:
+Go to "Admin Panel" > "Manage" > "Knowledge Base" to create and organize articles for users to find solutions independently.
 </p>
 <br />
 
@@ -55,8 +83,25 @@ Add support staff members and organize them into teams for efficient ticket assi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Personalize email communication by customizing templates. Navigate to "Admin Panel" > "Settings" > "Email" > "Templates" to edit email templates.Implement security measures, including regular backups, keeping osTicket and server software updated, and restricting access to sensitive areas.Customize the user portal to reflect your organization's branding.</p>
+Configure Ticket Filters and Rules:
+Enhance automation by configuring ticket filters and rules. Go to "Admin Panel" > "Manage" > "Ticket Filters" and "Ticket Rules" to set conditions for automatic actions.</p>
   
-<p>Navigate to "Admin Panel" > "Settings" > "User Interface" to make visual adjustments.Explore available plugins to extend osTicket's functionality. Integrate plugins for additional features, such as authentication options or integration with other systems.Provide training to staff on using osTicket efficiently. Document internal processes and procedures for consistent ticket management.
+<p>
+  Generate Reports:
+Leverage osTicket's reporting capabilities to analyze ticket data. Explore "Admin Panel" > "Reports" to generate reports on ticket activity, response times, and more.
+</p>
+
+<p>
+  Customize Email Templates:
+Personalize email communication by customizing templates. Navigate to "Admin Panel" > "Settings" > "Email" > "Templates" to edit email templates for various ticket-related notifications.</p>
+
+<p>
+  Customize User Portal:
+Enhance the user experience by customizing the user portal. Navigate to "Admin Panel" > "Settings" > "User Interface" to make visual adjustments.
+</p>
+
+<p>
+  Implement Security Measures:
+Secure your osTicket installation by following security best practices. This includes regular backups, using HTTPS, and restricting access to sensitive areas.
 </p>
 <br />
