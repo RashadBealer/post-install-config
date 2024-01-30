@@ -41,7 +41,7 @@ Navigate to the osTicket admin panel using the URL of your osTicket installation
 Log in with the administrator credentials created during the osTicket installation.
 </p>
 
-<pUpdate General Settings:
+<p>Update General Settings:
 In the osTicket admin panel, go to "Admin Panel" > "Settings" > "General".
 Review and update general settings such as the site name, default department, and default help topic.</p>
 
