@@ -56,7 +56,7 @@ Under "Admin Panel" > "Settings" > "Tickets," configure default ticket status, p
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ff6rz48.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Customize Ticket Forms:
