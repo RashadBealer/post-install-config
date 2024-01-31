@@ -80,7 +80,7 @@ Go to "Admin Panel" > "Manage" > "Knowledge Base" to create and organize article
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CSxggSq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Configure Ticket Filters and Rules:
